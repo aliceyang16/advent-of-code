@@ -26,6 +26,18 @@ from util.read_input import read_input
 # input = read_input("$FOLDER/sample")
 input = read_input("$FOLDER/input")
 
+# Part 1
+def part_one_solution():
+    print("Part one answer: ")
+
+# Part 2
+def part_two_solution():
+    print("Part two answer: ")
+
+if __name__ == "__main__":
+    part_one_solution()
+    part_two_solution()
+
 EOF
 
 SOLVE_SCRIPT=$(echo "${template//\$FOLDER/$FOLDER}")
